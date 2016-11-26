@@ -14,7 +14,30 @@ public class AppTest
 		double sum = a.jiafa(1, 4.9);
 		Assert.assertEquals(5.9, sum);
 	}
-
+	@Test
+	public void TestCase_1_001() {
+		App a = new App();
+		double sum = a.jiafa(1,4);
+		Assert.assertEquals(5.0, sum);
+	}
+	@Test
+	public void TestCase_1_002() {
+		App a = new App();
+		double sum = a.jiafa(1,1);
+		Assert.assertEquals(2.0, sum);
+	}
+	@Test
+	public void TestCase_1_003() {
+		App a = new App();
+		double sum = a.jiafa(1,100);
+		Assert.assertEquals(101.0, sum);
+	}
+	@Test
+	public void TestCase_1_004() {
+		App a = new App();
+		double sum = a.jiafa(-1,-2);
+		Assert.assertEquals(-3.0, sum);
+	}
 	@Test
 	public void TestCase_002() {
 		App a = new App();
