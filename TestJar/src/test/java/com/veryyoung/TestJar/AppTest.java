@@ -58,4 +58,10 @@ public class AppTest
 		double quot = a.chengfa(4.9, 1);
 		Assert.assertEquals(4.9, quot);
 	}
+	@Test
+	public void TestCase_005() {
+		App a = new App();
+		String str = a.printsysout();
+		Assert.assertEquals("https://github.com/youngvery/TestJar.git", str);
+	}
 }

@@ -6,9 +6,9 @@ package com.veryyoung.TestJar;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public String printsysout()
     {
-        System.out.println( "https://github.com/youngvery/TestJar.git" );
+        return "https://github.com/youngvery/TestJar.git";
     }
     
     public double jiafa(double a, double b) {
